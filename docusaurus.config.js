@@ -8,14 +8,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: 'Documentation for creating the Blog App',
   tagline: "We're here to help",
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://GrammerhubTeam.github.io/',
+  baseUrl: '/blog-app-documentation/',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'GrammerhubTeam', // Usually your GitHub org/user name.
   projectName: 'blog-app-documentation', // Usually your repo name.
-
+  deploymentBranch: 'main',
   presets: [
     [
       '@docusaurus/preset-classic',
