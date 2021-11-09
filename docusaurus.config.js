@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: 'Documentation for creating the Blog App',
   tagline: "We're here to help",
-  url: 'https://GrammerhubTeam.github.io/',
+  url: 'https://GrammerhubTeam.github.io',
   baseUrl: '/blog-app-documentation/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
